@@ -1,0 +1,13 @@
+job technologie: 
+Flutter
+Dart
+HTML
+CSS
+JavaScript
+JAVA
+C#
+ReactJs
+NextJs
+.NET
+NodeJs
+PHP
