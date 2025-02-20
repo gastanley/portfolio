@@ -10,11 +10,18 @@
     box-sizing: border-box;
 }
 
-#logoStan{
+/* #logoStan{
     width: 80%;
     justify-content: center;
     display: flex;
-    border-radius: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+} */
+
+.logo{
+    width: 80%;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 img{
@@ -42,8 +49,15 @@ nav{
     gap: 2rem;
 }
 
-.nav-logo{
-    max-width: 100px;
+.nav-logo {
+    width: 100px;
+    overflow: hidden; /* Assurez-vous que le contenu ne dépasse pas */
+}
+
+.nav-logo img {
+    width: 100%; /* L'image prendra toute la largeur du conteneur */
+    height: auto; /* Conserver les proportions de l'image */
+    border-radius: 8px;
 }
 
 /* Important */
@@ -405,9 +419,11 @@ footer .column .socials a:hover{
     border-color: #1d4ed8;
 }
 
+/* Gmail Logo */
 #gmail_photo img{
-    width: 40px;
-   height: auto;
+    width: 30px;
+   height: 30px;
+   border-radius: 100%;
 }
 
 footer .column h4{
